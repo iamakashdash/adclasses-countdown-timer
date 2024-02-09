@@ -37,6 +37,6 @@ body {
   
   .date-time {
     margin-bottom: 1px; /* Adjust the margin-bottom as needed */
-    line-height: 0.5; /* Set the line height to 1 to reduce the gap */
+    line-height: 1; /* Set the line height to 1 to reduce the gap */
   }
   
