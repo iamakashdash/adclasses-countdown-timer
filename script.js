@@ -12,7 +12,7 @@ function countdown(date, elementId) {
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    document.getElementById(elementId).innerHTML = `${days} Days ${hours} Hours ${minutes} Minutes ${seconds} Seconds`;
+    document.getElementById(elementId).innerHTML = `<span style="background-color: red; ">${days} Days</span> ${hours} Hours ${minutes} Minutes ${seconds} Seconds`;
 
     if (distance < 0) {
       clearInterval(intervalId);
