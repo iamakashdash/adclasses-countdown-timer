@@ -21,3 +21,22 @@ body {
     margin-top: 10px;
     color: white;
   }  
+
+  .button-style {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .date-time {
+    margin-bottom: 1px; /* Adjust the margin-bottom as needed */
+    line-height: 0.5; /* Set the line height to 1 to reduce the gap */
+  }
+  
