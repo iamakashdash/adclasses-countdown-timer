@@ -22,10 +22,10 @@ function countdown(date, elementId) {
 }
 
 // Start countdowns
-countdown("2024-02-27T10:30:00Z", "chemistry-timer");
-countdown("2024-03-04T10:30:00Z", "physics-timer");
-countdown("2024-03-09T10:30:00Z", "maths-timer");
-countdown("2024-03-18T10:30:00Z", "economics-timer");
-countdown("2024-03-19T10:30:00Z", "biology-timer");
-countdown("2024-03-23T10:30:00Z", "accountancy-timer");
-countdown("2024-03-27T10:30:00Z", "business-studies-timer");
+countdown("2024-02-27T05:00:00Z", "chemistry-timer");
+countdown("2024-03-04T05:00:00Z", "physics-timer");
+countdown("2024-03-09T05:00:00Z", "maths-timer");
+countdown("2024-03-18T05:00:00Z", "economics-timer");
+countdown("2024-03-19T05:00:00Z", "biology-timer");
+countdown("2024-03-23T05:00:00Z", "accountancy-timer");
+countdown("2024-03-27T05:00:00Z", "business-studies-timer");
