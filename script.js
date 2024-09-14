@@ -22,4 +22,4 @@ function countdown(date, elementId) {
 }
 
 // Start countdowns
-countdown("2024-09-16T04:30:00Z", "july-compartment-timer");
+countdown("2024-09-18T04:30:00Z", "july-compartment-timer");
