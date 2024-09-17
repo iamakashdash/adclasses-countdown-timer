@@ -40,3 +40,20 @@ body {
     line-height: 1; /* Set the line height to 1 to reduce the gap */
   }
   
+  .register-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green; /* Change this to your desired shade of green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 15px; /* Space above the button */
+  }
+  
+  .register-button:hover {
+    background-color: darkgreen; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+  }
+  
